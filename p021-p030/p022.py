@@ -15,4 +15,6 @@ for i in range(len(names)):
         score += alphabet_scores[names[i][j]]
     total += score * (i + 1)
     score = 0
+
+# output the answer
 print(total)
